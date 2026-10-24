@@ -11,9 +11,9 @@ export default function Hero() {
 
       {/* 2) Blobs de cor para dar profundidade */}
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
-        <div className="absolute -top-24 right-10 w-[420px] h-[420px] rounded-full bg-cyan-400/25 blur-3xl" />
-        <div className="absolute top-1/3 -left-24 w-[380px] h-[380px] rounded-full bg-blue-400/20 blur-3xl" />
-        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[500px] h-[300px] rounded-full bg-violet-300/15 blur-3xl" />
+        <div className="absolute -top-24 right-10 w-105 h-105 rounded-full bg-cyan-400/25 blur-3xl" />
+        <div className="absolute top-1/3 -left-24 w-95 h-95 rounded-full bg-blue-400/20 blur-3xl" />
+        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-125 h-125 rounded-full bg-violet-300/15 blur-3xl" />
       </div>
 
       <div className="relative max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
